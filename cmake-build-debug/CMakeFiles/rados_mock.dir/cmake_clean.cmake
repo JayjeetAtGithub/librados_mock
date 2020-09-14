@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/rados_mock.dir/main.cpp.o"
+  "CMakeFiles/rados_mock.dir/test.cpp.o"
   "rados_mock"
   "rados_mock.pdb"
 )

@@ -68,10 +68,10 @@ RM = /snap/clion/124/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/esmaeil/CROSS/Arrow/rados_mock
+CMAKE_SOURCE_DIR = /home/esmaeil/CROSS/Arrow/librados_mock
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/esmaeil/CROSS/Arrow/rados_mock/cmake-build-debug
+CMAKE_BINARY_DIR = /home/esmaeil/CROSS/Arrow/librados_mock/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/esmaeil/CROSS/Arrow/rados_mock/cmake-build-debug/CMakeFiles /home/esmaeil/CROSS/Arrow/rados_mock/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/esmaeil/CROSS/Arrow/librados_mock/cmake-build-debug/CMakeFiles /home/esmaeil/CROSS/Arrow/librados_mock/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/esmaeil/CROSS/Arrow/rados_mock/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/esmaeil/CROSS/Arrow/librados_mock/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ rados_mock/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/build
 .PHONY : rados_mock/fast
 
-main.o: main.cpp.o
+test.o: test.cpp.o
 
-.PHONY : main.o
+.PHONY : test.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/main.cpp.o
-.PHONY : main.cpp.o
+test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/test.cpp.o
+.PHONY : test.cpp.o
 
-main.i: main.cpp.i
+test.i: test.cpp.i
 
-.PHONY : main.i
+.PHONY : test.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/main.cpp.i
-.PHONY : main.cpp.i
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/test.cpp.i
+.PHONY : test.cpp.i
 
-main.s: main.cpp.s
+test.s: test.cpp.s
 
-.PHONY : main.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/main.cpp.s
-.PHONY : main.cpp.s
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rados_mock.dir/build.make CMakeFiles/rados_mock.dir/test.cpp.s
+.PHONY : test.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... rados_mock"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

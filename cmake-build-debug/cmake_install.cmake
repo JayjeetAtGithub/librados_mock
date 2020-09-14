@@ -1,4 +1,4 @@
-# Install script for directory: /home/esmaeil/CROSS/Arrow/rados_mock
+# Install script for directory: /home/esmaeil/CROSS/Arrow/librados_mock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/esmaeil/CROSS/Arrow/rados_mock/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/esmaeil/CROSS/Arrow/librados_mock/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

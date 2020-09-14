@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/rados_mock.dir/main.cpp.o  -o rados_mock 
+/usr/bin/c++  -g   CMakeFiles/rados_mock.dir/test.cpp.o  -o rados_mock 

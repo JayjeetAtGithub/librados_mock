@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/esmaeil/CROSS/Arrow/rados_mock/main.cpp" "/home/esmaeil/CROSS/Arrow/rados_mock/cmake-build-debug/CMakeFiles/rados_mock.dir/main.cpp.o"
+  "/home/esmaeil/CROSS/Arrow/librados_mock/test.cpp" "/home/esmaeil/CROSS/Arrow/librados_mock/cmake-build-debug/CMakeFiles/rados_mock.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
